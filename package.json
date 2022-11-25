@@ -1,0 +1,17 @@
+{
+  "name": "gen-regex",
+  "version": "1.0.6",
+  "description": "Generates regular expression according to passed parameter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "regex",
+    "regex pattern",
+    "regex validation",
+    "regular expression"
+  ],
+  "author": "msuyash",
+  "license": "ISC"
+}
