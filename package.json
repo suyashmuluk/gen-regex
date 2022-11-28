@@ -1,6 +1,6 @@
 {
   "name": "gen-regex",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Generates regular expression according to passed parameter",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,13 @@
     "regular expression"
   ],
   "author": "msuyash",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyashmuluk/gen-regex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suyashmuluk/gen-regex/issues"
+  },
+  "homepage": "https://github.com/suyashmuluk/gen-regex#readme"
 }

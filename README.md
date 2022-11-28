@@ -31,3 +31,15 @@ or
 const pattern = regex('pan');
 ```
 
+# Supported Parameters
+
+You can find the parameters to use in function in below table.
+
+| Parameter     | Usage       | Output |
+| ------------- |-------------| ------------|
+| mail      | regex('mail') | **^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,10}$**
+| pan      | regex('pan')      | **^[a-zA-Z]{5}[0-9]{4}[a-zA-Z]{1}$**
+| aadhar      | regex('aadhar')      | **^[2-9]{1}[0-9]{3}[0-9]{4}[0-9]{4}$**
+| gst | regex('gst')      | **^[0-9]{2}[A-Z]{5}[0-9]{4}[A-Z]{1}[1-9A-Z]{1}Z[0-9A-Z]{1}$**
+
+Currently, We focussed on these 4 primary patterns which are widely use in **India**. And we are working on improving this module.
