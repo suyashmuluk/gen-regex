@@ -1,6 +1,6 @@
 {
   "name": "gen-regex",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Generates regular expression according to passed parameter",
   "main": "index.js",
   "scripts": {
